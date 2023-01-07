@@ -1,0 +1,126 @@
+
+.container_index_relacion{
+    background-color: #EAF7FF;
+    min-height: 440px;
+    background-color: #ffffff;
+    width: 98%;
+    border: 4px solid;
+    border-radius: 50px;
+    border-color: #1488CC;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 6%;
+}
+
+.relacion h2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    grid-column: 1/4;
+}
+
+.relacion_d1{
+    text-align:center;
+    align-items: center;
+    grid-column: 1/2;
+}
+
+.relacion_d2{
+    grid-column: 2/2;
+}
+
+.img_relaciones{
+    width: 250px;
+    margin: 3%;
+}
+
+.rel_cj{
+    background-color: #EAF7FF;
+    min-height: 440px;
+    background-color: #ffffff;
+    width: 98%;
+    border: 4px solid;
+    border-radius: 50px;
+    border-color: #1488CC;
+    grid-template-columns: 50% 50%;
+    padding-top: 4%; 
+}
+
+.rel_cj h2{
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.form-r{
+    padding-left: 3%;
+}
+
+.resp-rel{
+    border: #000000 solid 4px;
+    border-radius: 20px;
+    width: 75%;
+    background-color: #c0d1e9;
+    padding-left: 5%;
+}
+.resp-rel li{
+    margin-top: 3%;
+
+}
+
+.container_exercise h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.conjunto_resolver{
+    display: flex;
+    justify-content: center;
+}
+.conjunto_resolver h2{
+    background-color: #c0d1e9;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin-left: 15%;
+    margin-right: 20px;
+    padding: 1%;
+
+}
+
+.container_exercise{
+    background-color: #EAF7FF;
+    min-height: 440px;
+    background-color: #ffffff;
+    width: 98%;
+    border: 4px solid;
+    border-radius: 50px;
+    border-color: #1488CC;
+    grid-template-columns: 33% 33% 33%;
+    padding-top: 4%; 
+}
+
+.respuestas-rel{
+    background-color: #c0d1e9;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin-left: 15%;
+    margin-right: 20px;
+    padding: 1%;
+}
+
+.nested-grid-rel{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 100px;
+}
+
+.nested-grid-rel{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 100px;
+    gap: 30px;
+}
+
+.send-rel{
+    margin-bottom: 50px;
+}
